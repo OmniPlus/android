@@ -17,7 +17,7 @@ Type:
     source build/envsetup.sh
     
 Download device sources of your device:
-    breakfast maguro (hammerhead is codename of Galaxy Nexus. So on.)
+    breakfast maguro (maguro is codename of Galaxy Nexus. So on.)
     
 Then download vendor blobs for your device:
     Open up https://github.com/DonkeyCoyote with your web browser. For example if you're gonna build for Galaxy Nexus, select proprietary_vendor_samsung repository, then make sure 4.4 branch is selected. Then hit download button. I'm assuming you're gonna build for Galaxy Nexus, so extract "maguro" folder to omniplus_folder/vendor/samsung/ directory. Of course there is no folder called "samsung" there, create that. I said "samsung" folder because manufacturer of Galaxy Nexus is Samsung, and so on.
