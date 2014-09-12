@@ -1,48 +1,30 @@
-Submitting Patches
-------------------
-Our ROM is open source, and patches are always welcome!
-You can send patches by using these commands:
+If you wanna build OmniPlus, follow these steps:
 
-    cd <project>
-    <make edits>
-    git add -A
-    git commit -m "commit message"
-    git push ssh://<username>@gerrit.omnirom.org:29418/<project> HEAD:refs/for/<branch>
-
-Register at gerrit.omnirom.org and use the username that you registered there in the above command
-
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
-
-If you are going to make extra additions, just repeat steps (Don't start a new patch), but instead of git commit -m
-use git commit --amend. Gerrit will recognize it as a new patchset.
-
-To view the status of your and others patches, visit [OMNI ROM Code Review](https://gerrit.omnirom.org)
-
-
-Getting Started
----------------
-
-To get started with OMNI ROM, you'll need to get
-familiar with [Git and Repo](http://source.android.com/download/using-repo).
-
-To initialize your local repository using the OMNIROM trees, use a command like this:
-
-    repo init -u git://github.com/omnirom/android.git -b <branch>
-
-Then to sync up:
-
+1) Firstly create a new directory:
+    mkdir omniplus
+    
+2) Init:
+    repo init -u git://github.com/OmniPlus/android.git -b android-4.4
+    
+3) Download the source:
     repo sync
+    
+    
+    
+You downloaded the source. But you must download also device-specific things:
 
-Then to build:
+Type:
+    source build/envsetup.sh
+    
+Download device sources of your device:
+    breakfast maguro (hammerhead is codename of Galaxy Nexus. So on.)
+    
+Then download vendor blobs for your device:
+    Open up https://github.com/DonkeyCoyote with your web browser. For example if you're gonna build for Galaxy Nexus, select proprietary_vendor_samsung repository, then make sure 4.4 branch is selected. Then hit download button. I'm assuming you're gonna build for Galaxy Nexus, so extract "maguro" folder to omniplus_folder/vendor/samsung/ directory. Of course there is no folder called "samsung" there, create that. I said "samsung" folder because manufacturer of Galaxy Nexus is Samsung, and so on.
+    
+Okay you downloaded everything needed, let's build:
 
-     cd <source-dir>; . build/envsetup.sh; brunch <device_name>
-
-
-If you need more information or a more detailed guide, click [here to see our wiki.](http://docs.omnirom.org)
-
-Our official IRC Channels are hosted on Freenode:
-
-[#omnirom - USERS](http://webchat.freenode.net/?channels=omnirom/)
-
-[#omni - DEVELOPERS](http://webchat.freenode.net/?channels=omni/)
-
+Type:
+    source build/envsetup.sh
+    lunch maguro (just an example, maguro is Galaxy Nexus, put your device's codename there.)
+    brunch maguro (just an example, again.)
