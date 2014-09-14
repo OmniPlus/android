@@ -399,33 +399,10 @@
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
   <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
  
- 
- 
- 
- 
 
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />                                                   
+ <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" />                          
 
-
-<!-- 
-        .___________.  ______     ______    __        ______  __    __       ___       __  .__   __.      _______.
-        |           | /  __  \   /  __  \  |  |      /      ||  |  |  |     /   \     |  | |  \ |  |     /       |
-        `---|  |----`|  |  |  | |  |  |  | |  |     |  ,----'|  |__|  |    /  ^  \    |  | |   \|  |    |   (----`
-            |  |     |  |  |  | |  |  |  | |  |     |  |     |   __   |   /  /_\  \   |  | |  . `  |     \   \    
-            |  |     |  `--'  | |  `--'  | |  `----.|  `----.|  |  |  |  /  _____  \  |  | |  |\   | .----)   |   
-            |__|      \______/   \______/  |_______| \______||__|  |__| /__/     \__\ |__| |__| \__| |_______/    
--->
-
-<!-- ######################################################################################################################################################################################################### -->
-<!-- ######################################################################################################################################################################################################### -->
-<!--#-->                                                                                                                                                                                                  <!--#-->
-<!--#-->                                                                                                                                                                                                  <!--#-->
-<!--                                                STOCK GOOGLE GCC TOOLCHAINS -->                                                                                                                       <!--#-->
-<!--#-->                                                                                                                                                                                                  <!--#-->
-<!--#-->  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />                                                     <!--#-->
-<!--#-->  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" />                           <!--#-->
-<!--#-->                                                                                                                                                                                                  <!--#-->
-<!-- ######################################################################################################################################################################################################### -->
-<!-- ######################################################################################################################################################################################################### -->
 
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
