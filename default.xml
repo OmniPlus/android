@@ -406,34 +406,27 @@
 
 
 
-<!--  _______.     ___      .______    _______ .______      .___  ___.   ______    _______  
-    /       |    /   \     |   _  \  |   ____||   _  \     |   \/   |  /  __  \  |       \  
-   |   (----`   /  ^  \    |  |_)  | |  |__   |  |_)  |    |  \  /  | |  |  |  | |  .--.  |
-    \   \      /  /_\  \   |   _  <  |   __|  |      /     |  |\/|  | |  |  |  | |  |  |  |
-.----)   |    /  _____  \  |  |_)  | |  |____ |  |\  \----.|  |  |  | |  `--'  | |  '--'  |
-|_______/    /__/     \__\ |______/  |_______|| _| `._____||__|  |__|  \______/  |_______/ 
+<!-- 
+        .___________.  ______     ______    __        ______  __    __       ___       __  .__   __.      _______.
+        |           | /  __  \   /  __  \  |  |      /      ||  |  |  |     /   \     |  | |  \ |  |     /       |
+        `---|  |----`|  |  |  | |  |  |  | |  |     |  ,----'|  |__|  |    /  ^  \    |  | |   \|  |    |   (----`
+            |  |     |  |  |  | |  |  |  | |  |     |  |     |   __   |   /  /_\  \   |  | |  . `  |     \   \    
+            |  |     |  `--'  | |  `--'  | |  `----.|  `----.|  |  |  |  /  _____  \  |  | |  |\   | .----)   |   
+            |__|      \______/   \______/  |_______| \______||__|  |__| /__/     \__\ |__| |__| \__| |_______/    
 -->
 
 <!-- ######################################################################################################################################################################################################### -->
 <!-- ######################################################################################################################################################################################################### -->
 <!--#-->                                                                                                                                                                                                  <!--#-->
 <!--#-->                                                                                                                                                                                                  <!--#-->
-<!--      SABERMOD TOOLCHAINS - FORKED FROM SABERMOD GITHUB TO OMNIPLUS GITHUB  -->                                                                                                                       <!--#-->
+<!--                                                STOCK GOOGLE GCC TOOLCHAINS -->                                                                                                                       <!--#-->
 <!--#-->                                                                                                                                                                                                  <!--#-->
-<!--#-->  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8" remote="omniplus" revision="master" />                                <!--#-->
-<!--#-->  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" remote="omniplus" revision="sm-kk-mr1" />   <!--#-->
+<!--#-->  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />                                                     <!--#-->
+<!--#-->  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" />                           <!--#-->
 <!--#-->                                                                                                                                                                                                  <!--#-->
 <!-- ######################################################################################################################################################################################################### -->
 <!-- ######################################################################################################################################################################################################### -->
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
