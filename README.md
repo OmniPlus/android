@@ -1,9 +1,9 @@
 how to compile:
 
-. build/envsetup.sh
+*** . build/envsetup.sh
 
 
-breakfast yourdevice
+*** getdevice hammerhead (example)
 
 
-make omniplus
+*** make omniplus
