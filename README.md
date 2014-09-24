@@ -1,9 +1,12 @@
+always use "repo sync -f" !!!
+
+
 how to compile:
 
 *** . build/envsetup.sh
 
 
-*** getdevice hammerhead (example)
+*** breakfast hammerhead (example)
 
 
-*** make omniplus
+*** brunch hammerhead
