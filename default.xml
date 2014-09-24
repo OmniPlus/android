@@ -26,7 +26,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="omniplus" revision="android-4.4" groups="pdk" >
+  <project path="build" name="android_build" remote="omniplus" revision="kk-wip" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -259,7 +259,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="omnirom" revision="android-4.4" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="omniplus" revision="android-4.4" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="omniplus" revision="kk-wip" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -341,7 +341,7 @@
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omnirom" revision="android-4.4" />
-  <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="omniplus" revision="android-4.4" />
+  <project path="packages/apps/OmniGears" name="android_packages_apps_OmniGears" remote="omniplus" revision="kk-wip" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/OmniTorch" name="android_packages_apps_OmniTorch" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
@@ -351,7 +351,7 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="android_packages_apps_QuickSearchBox" remote="omnirom" revision="android-4.4" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omniplus" revision="android-4.4" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="omniplus" revision="kk-wip" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -440,7 +440,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/omni" name="android_vendor_omni" remote="omniplus" revision="android-4.4" />
-  <project path="vendor/omniplus" name="android_vendor_omniplus" remote="omniplus" revision="master" />
+  <project path="vendor/omni" name="android_vendor_omni" remote="omniplus" revision="kk-wip" />
+  <project path="vendor/omniplus" name="android_vendor_omniplus" remote="omniplus" revision="kk-wip" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.4" />
 </manifest>
