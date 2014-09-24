@@ -18,8 +18,7 @@
   <remote  name="omniplus"
            fetch="https://github.com/omniplus" />
            
-  <remote  name="cm"
-           fetch="https://github.com/CyanogenMod/" />
+
 
   <default revision="refs/tags/android-4.4.4_r1"
            remote="aosp"
@@ -31,8 +30,7 @@
   </project>
 
   <project path="android" name="android" remote="omnirom" revision="android-4.4" />
-  <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cm" revision="cm-11.0"/>
-  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="cm" revision="cm-11.0"/>
+  
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="omnirom" revision="android-4.4" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-4.4" />
