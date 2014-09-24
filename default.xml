@@ -29,7 +29,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="android" remote="omnirom" revision="android-4.4" />
+  <project path="android" name="android" remote="omniplus" revision="kk" />
   
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="omnirom" revision="android-4.4" />
