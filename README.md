@@ -1,4 +1,4 @@
-always use "repo sync -f" !!!
+
 
 
 how to compile:
